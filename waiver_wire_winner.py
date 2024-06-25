@@ -516,6 +516,7 @@ def send_email(date, prob_pitchers_available, prob_batters_available, top_score_
         # Close the SMTP server connection
         server.quit()
 
+# ----- Main calling functions to run the code ----- #
 
 # Get yesterday's date in MM/DD/YYYY format
 yesterday = (date.today() - timedelta(days=1)).strftime("%m/%d/%Y")

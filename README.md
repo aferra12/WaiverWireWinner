@@ -18,6 +18,7 @@ The general concept of this automated assistant is to quickly perform all of the
 5. Filter these likely players to only reflect the players who are available free agents in your fantasy league using the ESPN API
 6. Filter these players to only the players who have games on the current day
 7. Send an email to yourself with the players, ranked by best choices, and including valuable insights
+8. Setup the assistant on a crontab to automatically send the email every day at a specified time
 
 ## Algorithm
 
